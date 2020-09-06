@@ -1,33 +1,37 @@
 //Item Display Configuration
-ItemDisplay[GOLD<5000]:
+ItemDisplay[GOLD<100 CLVL<20]:
+ItemDisplay[GOLD<1000 (CLVL>19 AND CLVL<80)]:
+ItemDisplay[GOLD<5000 CLVL>79]:
+
+//Throws 35k+
+ItemDisplay[(7tk OR 7bk OR 7ta) (MAG OR RARE OR NMAG) (!ETH AND !INF)]: %GRAY%throw %TAN%[35k]
 
 //Shorten Names Parameter:
-ItemDisplay[tsc]: %GREEN%**%WHITE%TP
-ItemDisplay[isc]: %GREEN%**%WHITE%ID
-ItemDisplay[vps]: Stam
-ItemDisplay[yps]: Anti
-ItemDisplay[wms]: Thaw
-ItemDisplay[gps]: Ranc
-ItemDisplay[ops]: Oil
-ItemDisplay[gpm]: Chok
-ItemDisplay[opm]: Expl
-ItemDisplay[gpl]: Stra
-ItemDisplay[opl]: Fulm
-ItemDisplay[hp1]: %WHITE%Min Heal%RED%*
-ItemDisplay[hp2]: %WHITE%Lt Heal%RED%*
-ItemDisplay[hp3]: %WHITE%Heal%RED%*
-ItemDisplay[hp4]: %WHITE%Gt Heal%RED%*
-ItemDisplay[hp5]: %WHITE%Sup Heal%RED%*
-ItemDisplay[mp1]: %WHITE%Min Mana%BLUE%*
-ItemDisplay[mp2]: %WHITE%Lt Mana%BLUE%*
-ItemDisplay[mp3]: %WHITE%Mana%BLUE%*
-ItemDisplay[mp4]: %WHITE%Gt Mana%BLUE%*
-ItemDisplay[mp5]: %WHITE%Sup Mana%BLUE%*
+ItemDisplay[tsc]: %BLUE%°%GRAY%tp
+ItemDisplay[isc]: %RED%°%GRAY%id
+ItemDisplay[hp1]: %RED%*%WHITE%Min Heal%RED%*
+ItemDisplay[hp2]: %RED%*%WHITE%Lt Heal%RED%*
+ItemDisplay[hp3]: %RED%*%WHITE%Heal%RED%*
+ItemDisplay[hp4]: %RED%*%WHITE%Gt Heal%RED%*
+ItemDisplay[hp5]: %RED%*%WHITE%Sup Heal%RED%*
+ItemDisplay[mp1]: %BLUE%*%WHITE%Min Mana%BLUE%*
+ItemDisplay[mp2]: %BLUE%*%WHITE%Lt Mana%BLUE%*
+ItemDisplay[mp3]: %BLUE%*%WHITE%Mana%BLUE%*
+ItemDisplay[mp4]: %BLUE%*%WHITE%Gt Mana%BLUE%*
+ItemDisplay[mp5]: %BLUE%*%WHITE%Sup Mana%BLUE%*
 ItemDisplay[rvs]: %WHITE%Rejuv%PURPLE%*
 ItemDisplay[rvl]: %WHITE%Full%PURPLE%*
-//ItemDisplay[aqv]:
-//ItemDisplay[cqv]:
-ItemDisplay[key]: Key
+
+ItemDisplay[vps CLVL<41]: %GREEN%!%WHITE%stamina
+ItemDisplay[vps CLVL>40]:
+ItemDisplay[wms CLVL<61]: %GREEN%!%WHITE%thaw
+ItemDisplay[wms CLVL>60]:
+
+ItemDisplay[yps]: %GREEN%!%WHITE%a
+ItemDisplay[key]: %GRAY%key
+
+//Choking, Exploding, Fulminating, Oil, Rancid, Strangling
+ItemDisplay[(gpm OR opm OR opl OR ops OR gps OR gpl) CLVL>23]:
 
 //Gems
 //Chipped
@@ -37,9 +41,13 @@ ItemDisplay[GEM=3]: %PURPLE%%NAME%
 ItemDisplay[GEM=4]: %PURPLE%%NAME%
 ItemDisplay[GEM=5]: %PURPLE%%NAME%
 
-//Ignore Quiver
-//ItemDisplay[aqv]:
-//ItemDisplay[cqv]:
+//Arrows and Bolts
+ItemDisplay[aqv CLVL>12]:
+ItemDisplay[aq2 NMAG CLVL>12]:
+ItemDisplay[aq2 MAG CLVL>40]:
+ItemDisplay[cqv CLVL>12]:
+ItemDisplay[cq2 NMAG CLVL>12]:
+ItemDisplay[cq2 MAG CLVL>40]:
 
 //Ignore ALMOST ALL inferior, white and magic Normal and Exceptional items
 //Exceptions:
@@ -53,6 +61,16 @@ ItemDisplay[EXC NMAG !RW !9wa !9fb !am6 !9fl !9pa !xar !9lw !9tw !xtp !9ws !xul 
 ItemDisplay[EXC MAG !ID !9cs !9lw !9tw !9qr !WP11 !WP12 !WP13 !CL6 !CL2 !EQ7]:
 ItemDisplay[ELT NMAG (WP4 OR WP5 OR WP6 OR WP10 OR EQ4 OR EQ5 OR EQ6)]:
 ItemDisplay[ELT MAG !ID (WP4 OR WP5 OR WP6 OR WP10 OR EQ1 OR EQ5 OR EQ6)]:
+
+//GG Uniq Items
+ItemDisplay[(ulc OR xea OR uap OR ulm OR ci3 OR xtb OR 7gw OR obf) UNI ETH !ID]: %GOLD%»» %GRAY%ETH %PURPLE%%NAME%%GOLD% ««
+ItemDisplay[(ulc OR xea OR urn OR uap OR ulm OR ci3 OR xtb OR uit OR 6lw OR 7gw OR 7gd OR obf) UNI !ID]: %RED%»» »» %PURPLE%%NAME%%RED% «« ««
+//Sacred Armor only below
+ItemDisplay[uar UNI ETH !ID]: %GOLD%»» %GRAY%ETH %PURPLE%%NAME% %GREEN%Templar [sorry]%GOLD% ««
+ItemDisplay[uar UNI !ID]: %RED%»» »» %GREEN%½ %PURPLE%%NAME%%RED% «« ««
+
+//Good set parts
+ItemDisplay[(amu OR xtb OR uar OR ci3 OR 7qr OR uth) SET !ID]: %DGREEN%»» »» %GREEN%%NAME%%DGREEN% «« ««
 
 //RUNES
 //El -> Fal: Grey Indicator, Orange text, no map icon
@@ -224,7 +242,7 @@ ItemDisplay[RARE (jew)]: %RED%0 %YELLOW%%NAME% [L%ILVL%] 				// Jewels
 //ItemDisplay[cm2]: %BLUE%%NAME% [L%ILVL%]
  
 //Uber Keys on the Map
-ItemDisplay[(pk1 OR pk2 OR pk3)]: %ORANGE%%MAP%%NAME%%CONTINUE%
+ItemDisplay[(pk1 OR pk2 OR pk3)]: %ORANGE%%NAME%%CONTINUE%
  
 //Add ethereality, sockets, ilvl to the name
 ItemDisplay[ETH]: %NAME% (Eth)%CONTINUE%
