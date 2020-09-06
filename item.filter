@@ -1,5 +1,4 @@
 //Item Display Configuration
-Advanced Item Display:	True, None
 ItemDisplay[GOLD<5000]:
 
 //Shorten Names Parameter:
