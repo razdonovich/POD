@@ -1,6 +1,6 @@
 //Item Display Configuration
 Advanced Item Display:	True, None
-ItemDisplay[GOLD<2000]:
+ItemDisplay[GOLD<5000]:
 
 //Shorten Names Parameter:
 ItemDisplay[tsc]: %GREEN%**%WHITE%TP
@@ -26,8 +26,8 @@ ItemDisplay[mp4]: %WHITE%Gt Mana%BLUE%*
 ItemDisplay[mp5]: %WHITE%Sup Mana%BLUE%*
 ItemDisplay[rvs]: %WHITE%Rejuv%PURPLE%*
 ItemDisplay[rvl]: %WHITE%Full%PURPLE%*
-ItemDisplay[aqv]:
-ItemDisplay[cqv]:
+//ItemDisplay[aqv]:
+//ItemDisplay[cqv]:
 ItemDisplay[key]: Key
 
 //Gems
@@ -164,16 +164,16 @@ ItemDisplay[RARE (EQ4 OR EQ5 OR EQ6) !ID]: %RED%0 %YELLOW%%NAME%%MAP%%CONTINUE%
 ItemDisplay[RARE ETH !ID (wax OR 9wa OR 7wa OR crs OR 9cr OR flb OR 9fb OR 7fb OR gsd OR 9gd OR 7gd OR CL5)]: %RED%0 %YELLOW%%NAME%%MAP%%CONTINUE%
  
 //Assassin Claws
-ItemDisplay[(9lw OR 9tw OR 7tw OR 7lw OR clw OR btl) !ETH RARE !ID]: %RED%0 %YELLOW%%NAME%%MAP%%CONTINUE%
+ItemDisplay[(9lw OR 9tw OR 7tw OR 7lw OR clw OR btl) !ETH RARE !ID]: %YELLOW%%NAME%%CONTINUE%
  
 //Kris, Fanged, Blade
-ItemDisplay[RARE (kri OR bld OR 9kr OR 9bl OR 7kr OR 7bl) !ID]: %RED%0 %YELLOW%%NAME%%MAP%%CONTINUE%
+ItemDisplay[RARE (kri OR bld OR 9kr OR 9bl OR 7kr OR 7bl) !ID]: %YELLOW%%NAME%%CONTINUE%
  
 //Druid Pelts
-ItemDisplay[CL1 RARE ILVL>39 !ID]: %RED%0 %YELLOW%%NAME%%MAP%%CONTINUE%
+ItemDisplay[CL1 RARE ILVL>39 !ID]: %YELLOW%%NAME%%CONTINUE%
  
 //Barb Helms
-ItemDisplay[CL2 RARE !ID]: %RED%0 %YELLOW%%NAME%%MAP%%CONTINUE%
+ItemDisplay[CL2 RARE !ID]: %YELLOW%%NAME%%CONTINUE%
  
  
 //Display sets and uniques on the map with indicators
