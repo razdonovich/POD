@@ -349,7 +349,7 @@ ItemDisplay[UNI (7gw OR obf)]: %RED%0 %GOLD%%NAME%%CONTINUE% 						// Death's Fa
 //ItemDisplay[SET (urn OR paf OR 7ws OR uar OR uth OR amu OR ci3)]: %NAME%%GREEN%%CONTINUE%		// Gris Helm, Gris Shield, Gris Weapon, IK Armor, Tal Armor, Set Amulet, Mav Diadem
  
 //Display charms and jewels on the map, and ilvl
-ItemDisplay[(cm1 OR cm3)]: %RED%0 %NAME% [L%ILVL%] 					// Sc, Gc
+ItemDisplay[MAG (cm1 OR cm3)]: %RED%0 %NAME% [L%ILVL%] 					// Sc, Gc
 ItemDisplay[MAG (jew)]: %RED%0 %BLUE%%NAME% [L%ILVL%]  
 ItemDisplay[RARE (jew)]: %RED%0 %YELLOW%%NAME% [L%ILVL%] 				// Jewels
 
