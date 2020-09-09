@@ -77,7 +77,7 @@ ItemDisplay[(amu OR xtb OR uar OR ci3 OR 7qr OR uth) SET !ID]: %DGREEN%»» »»
 //Lem -> Vex: Red Indicator, Orange text, red map icon
 //Ohm -> Zod: Purple Indicator, Orange text, purple map icon
 
-ItemDisplay[r31]: %RED%000000 %ORANCE%%RUNENAME% Rune (%RUNENUM%)
+ItemDisplay[r31]: %RED%000000 %ORANGE%%RUNENAME% Rune (%RUNENUM%)
 ItemDisplay[RUNE<20]: %GRAY%0 %ORANGE%%RUNENAME% Rune (%RUNENUM%)
 ItemDisplay[RUNE>26]: %RED%0 %ORANGE%%RUNENAME% Rune (%RUNENUM%)
 ItemDisplay[RUNE>19]: %RED%0 %ORANGE%%RUNENAME% Rune (%RUNENUM%)
