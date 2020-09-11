@@ -4,7 +4,7 @@ ItemDisplay[GOLD<1000 (CLVL>19 AND CLVL<80)]:
 ItemDisplay[GOLD<5000 CLVL>79]:
 
 //Wirt's Leg
-ItemDisplay[leg]: %NAME%%CONTINUE%
+ItemDisplay[leg]: %NAME%
 
 //Throws 35k+
 ItemDisplay[(7tk OR 7bk OR 7ta) (MAG OR RARE OR NMAG) (!ETH AND !INF)]: %GRAY%throw %TAN%[35k]
