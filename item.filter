@@ -42,7 +42,7 @@ ItemDisplay[GEM=4]: %PURPLE%%NAME%
 ItemDisplay[GEM=5]: %PURPLE%%NAME%
 
 //OOC
-ItemDisplay[cx5]: %DGREEN%%NAME%%CONTINUE%
+ItemDisplay[cx5]: %DGREEN%%NAME%
 
 //Arrows and Bolts
 ItemDisplay[aqv CLVL>12]:
