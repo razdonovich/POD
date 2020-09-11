@@ -3,9 +3,6 @@ ItemDisplay[GOLD<100 CLVL<20]:
 ItemDisplay[GOLD<1000 (CLVL>19 AND CLVL<80)]:
 ItemDisplay[GOLD<5000 CLVL>79]:
 
-//OOC
-ItemDisplay[cx5]: %DGREEN%%NAME%%CONTINUE%
-
 //Throws 35k+
 ItemDisplay[(7tk OR 7bk OR 7ta) (MAG OR RARE OR NMAG) (!ETH AND !INF)]: %GRAY%throw %TAN%[35k]
 
@@ -38,11 +35,11 @@ ItemDisplay[(gpm OR opm OR opl OR ops OR gps OR gpl) CLVL>23]:
 
 //Gems
 //Chipped
-ItemDisplay[GEM=1]: %PURPLE%%NAME%
-ItemDisplay[GEM=2]: %PURPLE%%NAME%
-ItemDisplay[GEM=3]: %PURPLE%%NAME%
-ItemDisplay[GEM=4]: %PURPLE%%NAME%
-ItemDisplay[GEM=5]: %PURPLE%%NAME%
+ItemDisplay[GEM=1]: %DGREEN%%NAME%
+ItemDisplay[GEM=2]: %DGREEN%%NAME%
+ItemDisplay[GEM=3]: %DGREEN%%NAME%
+ItemDisplay[GEM=4]: %DGREEN%%NAME%
+ItemDisplay[GEM=5]: %DGREEN%%NAME%
 
 //Arrows and Bolts
 ItemDisplay[aqv CLVL>12]:
