@@ -357,6 +357,9 @@ ItemDisplay[RARE (jew)]: %RED%0 %YELLOW%%NAME% [L%ILVL%] 				// Jewels
  
 //Uber Keys on the Map
 ItemDisplay[(pk1 OR pk2 OR pk3)]: %ORANGE%%NAME%%CONTINUE%
+
+//Wirt's Leg
+ItemDisplay[leg]: %TAN%Wirt's Leg
  
 //Add ethereality, sockets, ilvl to the name
 ItemDisplay[ETH]: %NAME% (Eth)%CONTINUE%
