@@ -4,7 +4,7 @@ ItemDisplay[GOLD<1000 (CLVL>19 AND CLVL<80)]:
 ItemDisplay[GOLD<5000 CLVL>79]:
 
 //Wirt's Leg
-ItemDisplay[leg]: %TAN%%NAME%
+ItemDisplay[leg]: %NAME%%CONTINUE%
 
 //Throws 35k+
 ItemDisplay[(7tk OR 7bk OR 7ta) (MAG OR RARE OR NMAG) (!ETH AND !INF)]: %GRAY%throw %TAN%[35k]
@@ -360,9 +360,6 @@ ItemDisplay[RARE (jew)]: %RED%0 %YELLOW%%NAME% [L%ILVL%] 				// Jewels
  
 //Uber Keys on the Map
 ItemDisplay[(pk1 OR pk2 OR pk3)]: %ORANGE%%NAME%%CONTINUE%
-
-//Wirt's Leg
-ItemDisplay[leg]: %TAN%%NAME%
  
 //Add ethereality, sockets, ilvl to the name
 ItemDisplay[ETH]: %NAME% (Eth)%CONTINUE%
