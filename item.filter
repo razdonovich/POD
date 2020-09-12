@@ -83,7 +83,7 @@ ItemDisplay[(amu OR xtb OR uar OR ci3 OR 7qr OR uth) SET !ID]: %DGREEN%»» »»
 ItemDisplay[RUNE<20]: %GRAY%0 %ORANGE%%RUNENAME% Rune (%RUNENUM%)
 ItemDisplay[RUNE>25]: %RED%»» »» %ORANGE%%RUNENAME% Rune (%RUNENUM%)%RED% «« ««
 ItemDisplay[RUNE>19]: %RED%0 0 0 %ORANGE%%RUNENAME% Rune (%RUNENUM%)
-ItemDisplay[r31]: %RED%»» »» %ORANGE%%RUNENAME% Rune (%RUNENUM%)%RED% «« ««
+ItemDisplay[r31]: %RED%»»00 »»00 %ORANGE%%RUNENAME% Rune (%RUNENUM%)%RED% 00«« 00««
 
 //Good Charms
 ItemDisplay[cm3 (ITEMSTAT22>6 AND LIFE>0)]: %TAN%Max Dmg %RED%Life %BLUE%Grand Charm %GRAY%[%ILVL%]
@@ -236,7 +236,7 @@ ItemDisplay[!ETH NMAG (9tw OR 7tw OR 9lw OR 7lw) (SK267>0 AND SK278>2) (SOCK=0 O
 ItemDisplay[!ETH NMAG (9tw OR 7tw OR 9lw OR 7lw) (SK263>0 AND SK278>2) (SOCK=0 OR SOCK=3)]: %RED%0 %WHITE%%NAME%%CONTINUE%
 
 //Faith Bases
-ItemDisplay[(amc OR amb) SOCK=4 NMAG TABSK0>2]: %RED%0 %WHITE%%NAME%%CONTINUE%
+ItemDisplay[(amc OR amb) SOCK=4 NMAG TABSK0>2]: %RED%000»» %WHITE%%NAME%%CONTINUE% %RED% 000««
 ItemDisplay[(6cb OR 6hb) NMAG ED>14 (SOCK=0 OR SOCK=4)]: %RED%0 %WHITE%%NAME%%CONTINUE%
  
 //Berserker Axe & Colossus Blade & Archon Staff BotD Bases 10+ ED
