@@ -6,6 +6,9 @@ ItemDisplay[GOLD<5000 CLVL>79]:
 //Wirt's Leg
 ItemDisplay[leg]: %YELLOW%%NAME%
 
+//Throws 35k+
+ItemDisplay[(7tk OR 7bk OR 7ta) (MAG OR RARE OR NMAG) (!ETH AND !INF)]: %GRAY%throw %TAN%[35k]
+
 //Shorten Names Parameter:
 ItemDisplay[tsc]: %BLUE%°%GRAY%tp
 ItemDisplay[isc]: %RED%°%GRAY%id
@@ -69,9 +72,6 @@ ItemDisplay[EXC NMAG !RW !9wa !9fb !am6 !9fl !9pa !xar !9lw !9tw !xtp !9ws !xul 
 ItemDisplay[EXC MAG !ID !9cs !9lw !9tw !9qr !WP11 !WP12 !WP13 !CL6 !CL2 !EQ7]:
 ItemDisplay[ELT NMAG (WP4 OR WP5 OR WP6 OR WP10 OR EQ4 OR EQ5 OR EQ6)]:
 ItemDisplay[ELT MAG !ID (WP4 OR WP5 OR WP6 OR WP10 OR EQ1 OR EQ5 OR EQ6)]:
-
-//Throws 35k+
-ItemDisplay[(7tk OR 7bk OR 7ta) (MAG OR RARE OR NMAG) (!ETH AND !INF)]: %GRAY%throw %TAN%[35k]
 
 //GG Uniq Items
 ItemDisplay[(ulc OR xea OR uap OR ulm OR ci3 OR xtb OR 7gw OR obf) UNI ETH !ID]: %GOLD%»» %GRAY%ETH %PURPLE%%NAME%%GOLD% ««
