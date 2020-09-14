@@ -6,6 +6,8 @@ ItemDisplay[GOLD<5000 CLVL>79]:
 //Wirt's Leg
 ItemDisplay[leg]: %YELLOW%%NAME%
 
+ItemDisplay[skl]: %DGREEN%Flawless %TAN%Skull
+
 //Throws 35k+
 ItemDisplay[(7tk OR 7bk OR 7ta) (MAG OR RARE OR NMAG) (!ETH AND !INF)]: %GRAY%throw %TAN%[35k]
 
@@ -43,7 +45,6 @@ ItemDisplay[GEM=2]: %DGREEN%%NAME%
 ItemDisplay[GEM=3]: %DGREEN%%NAME%
 ItemDisplay[GEM=4]: %DGREEN%%NAME%
 ItemDisplay[GEM=5]: %DGREEN%%NAME%
-ItemDisplay[skl]: %DGREEN%Flawless %TAN%Skull
 
 //Arrows and Bolts
 ItemDisplay[aqv CLVL>12]:
