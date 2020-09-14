@@ -38,11 +38,11 @@ ItemDisplay[(gpm OR opm OR opl OR ops OR gps OR gpl) CLVL>23]:
 
 //Gems
 //Chipped
-ItemDisplay[GEM=1]: %DGREEN%%NAME%
-ItemDisplay[GEM=2]: %DGREEN%%NAME%
-ItemDisplay[GEM=3]: %DGREEN%%NAME%
-ItemDisplay[GEM=4]: %DGREEN%%NAME%
-ItemDisplay[GEM=5]: %DGREEN%%NAME%
+ItemDisplay[GEM=1]: %DGREEN%%NAME%%CONTINUE%
+ItemDisplay[GEM=2]: %DGREEN%%NAME%%CONTINUE%
+ItemDisplay[GEM=3]: %DGREEN%%NAME%%CONTINUE%
+ItemDisplay[GEM=4]: %DGREEN%%NAME%%CONTINUE%
+ItemDisplay[GEM=5]: %DGREEN%%NAME%%CONTINUE%
 ItemDisplay[skl]: %DGREEN%%Flawless %TAN%Skull%CONTINUE%
 
 //Arrows and Bolts
