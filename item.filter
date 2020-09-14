@@ -43,6 +43,7 @@ ItemDisplay[GEM=2]: %DGREEN%%NAME%
 ItemDisplay[GEM=3]: %DGREEN%%NAME%
 ItemDisplay[GEM=4]: %DGREEN%%NAME%
 ItemDisplay[GEM=5]: %DGREEN%%NAME%
+ItemDisplay[skl]: %DGREEN%%Flawless %TAN%Skull
 
 //Arrows and Bolts
 ItemDisplay[aqv CLVL>12]:
@@ -59,12 +60,12 @@ ItemDisplay[cq2 MAG CLVL>40]:
  
 ItemDisplay[INF]:
 //LVL70
-ItemDisplay[NORM NMAG SOCK=0 !ETH !pik !pa2 !ful !bhm !wsp !9ws !RW !tsp !9ts !9ja !pa5 !pa3 !pa4 !crn !aar !mpi !am1 !wax !flb !crs !bsd !fla !WP11 !CL2 !gth !7tk !7bk !7ta CLVL>70]: %CONTINUE%
-ItemDisplay[NORM MAG !ID !WP11 !WP12 !EQ7 !7tk !7bk !7ta CLVL>70]: %CONTINUE%
-ItemDisplay[EXC NMAG SOCK=0 !RW !ETH !xtp !7tk !7bk !7ta CLVL>70]: %CONTINUE%
-ItemDisplay[EXC MAG !ID !9lw !9tw !WP11 !WP12 !EQ7 !7tk !7bk !7ta CLVL>70]: %CONTINUE%
-ItemDisplay[ELT NMAG SOCK=0 !RW !ETH (WP1 OR WP2 OR WP3 OR WP4 OR WP5 OR WP6 OR WP7 OR WP8 OR WP10 OR WP13 OR EQ4 OR EQ5 OR EQ6) !7tk !7bk !7ta CLVL>70]: %CONTINUE%
-ItemDisplay[ELT MAG !ID (WP1 OR WP2 OR WP3 OR WP4 OR WP5 OR WP6 OR WP7 OR WP8 OR WP9 OR WP10 OR EQ1 OR EQ5 OR EQ6) !7tk !7bk !7ta CLVL>70]: %CONTINUE%
+ItemDisplay[NORM NMAG SOCK=0 !ETH !pik !pa2 !ful !bhm !wsp !9ws !RW !tsp !9ts !9ja !pa5 !pa3 !pa4 !crn !aar !mpi !am1 !wax !flb !crs !bsd !fla !WP11 !CL2 !gth !7tk !7bk !7ta CLVL>80]: %CONTINUE%
+ItemDisplay[NORM MAG !ID !WP11 !WP12 !EQ7 !7tk !7bk !7ta CLVL>80]: %CONTINUE%
+ItemDisplay[EXC NMAG SOCK=0 !RW !ETH !xtp !7tk !7bk !7ta CLVL>80]: %CONTINUE%
+ItemDisplay[EXC MAG !ID !9lw !9tw !WP11 !WP12 !EQ7 !7tk !7bk !7ta CLVL>80]: %CONTINUE%
+ItemDisplay[ELT NMAG SOCK=0 !RW !ETH (WP1 OR WP2 OR WP3 OR WP4 OR WP5 OR WP6 OR WP7 OR WP8 OR WP10 OR WP13 OR EQ4 OR EQ5 OR EQ6) !7tk !7bk !7ta CLVL>80]: %CONTINUE%
+ItemDisplay[ELT MAG !ID (WP1 OR WP2 OR WP3 OR WP4 OR WP5 OR WP6 OR WP7 OR WP8 OR WP9 OR WP10 OR EQ1 OR EQ5 OR EQ6) !7tk !7bk !7ta CLVL>80]: %CONTINUE%
 
 ItemDisplay[NORM NMAG !pik !pa2 !ful !bhm !wsp !9ws !RW !tsp !9ts !9ja !pa5 !pa3 !pa4 !crn !aar !mpi !am1 !wax !flb !crs !bsd !fla !WP11 !CL2 !gth]:
 ItemDisplay[NORM MAG !ID !WP11 !WP12 !WP13 !CL6 !CL2 !EQ7]:
