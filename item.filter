@@ -8,6 +8,9 @@ ItemDisplay[leg]: %YELLOW%%NAME%
 
 ItemDisplay[skl]: %DGREEN%Flawless %TAN%Skull
 
+//Unique Rings and Amulets
+//ItemDisplay[rin
+
 //Throws 35k+
 ItemDisplay[(7tk OR 7bk OR 7ta) (MAG OR RARE OR NMAG) (!ETH AND !INF)]: %GRAY%throw %TAN%[35k]
 
@@ -91,9 +94,9 @@ ItemDisplay[(amu OR xtb OR uar OR ci3 OR 7qr OR uth) SET !ID]: %DGREEN%»» »»
 //Ohm -> Zod: Purple Indicator, Orange text, purple map icon
 
 ItemDisplay[RUNE<20]: %GRAY%0 %ORANGE%%RUNENAME% Rune (%RUNENUM%)
-ItemDisplay[RUNE>25]: %RED%»» »» %ORANGE%%RUNENAME% Rune (%RUNENUM%)%RED% «« ««
+ItemDisplay[RUNE>25]: %RED%»» »» %ORANGE%%RUNENAME% Rune (%RUNENUM%)%RED% «« ««%CONTINUE%
 ItemDisplay[RUNE>19]: %RED%0 0 0 %ORANGE%%RUNENAME% Rune (%RUNENUM%)
-ItemDisplay[r31]: %RED%»»00 »»00 %ORANGE%%RUNENAME% Rune (%RUNENUM%)%RED% 00«« 00««
+ItemDisplay[r31]: %RED%»»00 »»00 %ORANGE%%RUNENAME% Rune (%RUNENUM%)%RED% 00«« 00««%CONTINUE%
 
 //Good Charms
 ItemDisplay[cm3 (ITEMSTAT22>6 AND LIFE>0)]: %TAN%Max Dmg %RED%Life %BLUE%Grand Charm %GRAY%[%ILVL%]
