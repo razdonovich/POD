@@ -13,7 +13,7 @@ ItemDisplay[skl]: %DGREEN%Flawless %TAN%Skull
 ItemDisplay[r31]: %RED%»»00 »»00 %ORANGE%%RUNENAME% Rune (%RUNENUM%)%RED% 00«« 00««
 
 //Unique Rings and Amulets
-//ItemDisplay[rin UNI !ID]: %RED%» %GOLD%Ringaling!
+ItemDisplay[rin UNI !ID]: %RED%» %GOLD%Ringaling!
 
 //Throws 35k+
 ItemDisplay[(7tk OR 7bk OR 7ta) (MAG OR RARE OR NMAG) (!ETH AND !INF)]: %GRAY%throw %TAN%[35k]
