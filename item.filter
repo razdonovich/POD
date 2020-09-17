@@ -98,7 +98,7 @@ ItemDisplay[(amu OR xtb OR uar OR ci3 OR 7qr OR uth) SET !ID]: %DGREEN%»» »»
 //Ohm -> Zod: Purple Indicator, Orange text, purple map icon
 
 ItemDisplay[RUNE<20]: %GRAY%0 %ORANGE%%RUNENAME% Rune (%RUNENUM%)
-ItemDisplay[RUNE>25]: %RED%»» »» %ORANGE%%RUNENAME% Rune (%RUNENUM%)%RED% «« ««
+ItemDisplay[RUNE>25]: %RED%»» »» %ORANGE%%RUNENAME% Rune (%RUNENUM%)%RED% «« ««%CONTINUE%
 ItemDisplay[RUNE>19]: %RED%0 0 0 %ORANGE%%RUNENAME% Rune (%RUNENUM%)
 
 //Good Charms
