@@ -14,6 +14,7 @@ ItemDisplay[skl]: %DGREEN%Flawless %TAN%Skull
 
 //Unique Rings and Amulets
 ItemDisplay[rin UNI !ID]: %RED%» %GOLD%Ringaling!
+ItemDisplay[amu UNI !ID]: %RED%» %GOLD%Amulet-Shmamulet!
 
 //Throws 35k+
 ItemDisplay[(7tk OR 7bk OR 7ta) (MAG OR RARE OR NMAG) (!ETH AND !INF)]: %GRAY%throw %TAN%[35k]
