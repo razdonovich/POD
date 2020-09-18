@@ -35,6 +35,16 @@ ItemDisplay[mp5]: %BLUE%*%WHITE%Sup Mana%BLUE%*
 ItemDisplay[rvs CLVL<80]: %WHITE%Rejuv%PURPLE%*
 ItemDisplay[rvl]: %WHITE%Full%PURPLE%*
 
+ItemDisplay[hp1 CLVL>80]:
+ItemDisplay[hp2 CLVL>80]:
+ItemDisplay[hp3 CLVL>80]:
+ItemDisplay[hp4 CLVL>80]:
+ItemDisplay[mp1 CLVL>80]:
+ItemDisplay[mp2 CLVL>80]:
+ItemDisplay[mp3 CLVL>80]:
+ItemDisplay[mp4 CLVL>80]:
+ItemDisplay[rvs CLVL>80]:
+
 ItemDisplay[vps CLVL<41]: %GREEN%!%WHITE%stamina
 ItemDisplay[vps CLVL>40]:
 ItemDisplay[wms CLVL<61]: %GREEN%!%WHITE%thaw
@@ -47,11 +57,11 @@ ItemDisplay[key]: %GRAY%key
 ItemDisplay[(gpm OR opm OR opl OR ops OR gps OR gpl) CLVL>23]:
 
 //Gems
-ItemDisplay[GEM=1]: %DGREEN%%NAME%
-ItemDisplay[GEM=2]: %DGREEN%%NAME%
-ItemDisplay[GEM=3]: %DGREEN%%NAME%
-ItemDisplay[GEM=4]: %DGREEN%%NAME%
-ItemDisplay[GEM=5]: %DGREEN%%NAME%
+ItemDisplay[GEM=1]: %DGREEN%%NAME%%CONTINUE%
+ItemDisplay[GEM=2]: %DGREEN%%NAME%%CONTINUE%
+ItemDisplay[GEM=3]: %DGREEN%%NAME%%CONTINUE%
+ItemDisplay[GEM=4]: %DGREEN%%NAME%%CONTINUE%
+ItemDisplay[GEM=5]: %DGREEN%%NAME%%CONTINUE%
 
 //Gems Chipped Hide
 ItemDisplay[gcv CLVL>80]:
