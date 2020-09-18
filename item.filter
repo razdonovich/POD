@@ -22,17 +22,17 @@ ItemDisplay[(7tk OR 7bk OR 7ta) (MAG OR RARE OR NMAG) (!ETH AND !INF)]: %GRAY%th
 //Shorten Names Parameter:
 ItemDisplay[tsc]: %BLUE%°%GRAY%tp
 ItemDisplay[isc]: %RED%°%GRAY%id
-ItemDisplay[hp1]: %RED%*%WHITE%Min Heal%RED%*
-ItemDisplay[hp2]: %RED%*%WHITE%Lt Heal%RED%*
-ItemDisplay[hp3]: %RED%*%WHITE%Heal%RED%*
-ItemDisplay[hp4]: %RED%*%WHITE%Gt Heal%RED%*
+ItemDisplay[hp1 CLVL<80]: %RED%*%WHITE%Min Heal%RED%*
+ItemDisplay[hp2 CLVL<80]: %RED%*%WHITE%Lt Heal%RED%*
+ItemDisplay[hp3 CLVL<80]: %RED%*%WHITE%Heal%RED%*
+ItemDisplay[hp4 CLVL<80]: %RED%*%WHITE%Gt Heal%RED%*
 ItemDisplay[hp5]: %RED%*%WHITE%Sup Heal%RED%*
-ItemDisplay[mp1]: %BLUE%*%WHITE%Min Mana%BLUE%*
-ItemDisplay[mp2]: %BLUE%*%WHITE%Lt Mana%BLUE%*
-ItemDisplay[mp3]: %BLUE%*%WHITE%Mana%BLUE%*
-ItemDisplay[mp4]: %BLUE%*%WHITE%Gt Mana%BLUE%*
+ItemDisplay[mp1 CLVL<80]: %BLUE%*%WHITE%Min Mana%BLUE%*
+ItemDisplay[mp2 CLVL<80]: %BLUE%*%WHITE%Lt Mana%BLUE%*
+ItemDisplay[mp3 CLVL<80]: %BLUE%*%WHITE%Mana%BLUE%*
+ItemDisplay[mp4 CLVL<80]: %BLUE%*%WHITE%Gt Mana%BLUE%*
 ItemDisplay[mp5]: %BLUE%*%WHITE%Sup Mana%BLUE%*
-ItemDisplay[rvs]: %WHITE%Rejuv%PURPLE%*
+ItemDisplay[rvs CLVL<80]: %WHITE%Rejuv%PURPLE%*
 ItemDisplay[rvl]: %WHITE%Full%PURPLE%*
 
 ItemDisplay[vps CLVL<41]: %GREEN%!%WHITE%stamina
@@ -47,12 +47,38 @@ ItemDisplay[key]: %GRAY%key
 ItemDisplay[(gpm OR opm OR opl OR ops OR gps OR gpl) CLVL>23]:
 
 //Gems
-//Chipped
 ItemDisplay[GEM=1]: %DGREEN%%NAME%
 ItemDisplay[GEM=2]: %DGREEN%%NAME%
 ItemDisplay[GEM=3]: %DGREEN%%NAME%
 ItemDisplay[GEM=4]: %DGREEN%%NAME%
 ItemDisplay[GEM=5]: %DGREEN%%NAME%
+
+//Gems Chipped Hide
+ItemDisplay[gcv CLVL>80]:
+ItemDisplay[gcw CLVL>80]:
+ItemDisplay[gcg CLVL>80]:
+ItemDisplay[gcr CLVL>80]:
+ItemDisplay[gcb CLVL>80]:
+ItemDisplay[gcy CLVL>80]:
+ItemDisplay[skc CLVL>80]:
+
+//Gems Flawed Hide
+ItemDisplay[gfv CLVL>80]:
+ItemDisplay[gfw CLVL>80]:
+ItemDisplay[gfg CLVL>80]:
+ItemDisplay[gfr CLVL>80]:
+ItemDisplay[gfb CLVL>80]:
+ItemDisplay[gfy CLVL>80]:
+ItemDisplay[skf CLVL>80]:
+
+//Gems Normal Hide
+ItemDisplay[gsv CLVL>80]:
+ItemDisplay[gsw CLVL>80]:
+ItemDisplay[gsg CLVL>80]:
+ItemDisplay[gsr CLVL>80]:
+ItemDisplay[gsb CLVL>80]:
+ItemDisplay[gsy CLVL>80]:
+ItemDisplay[sku CLVL>80]:
 
 //Arrows and Bolts
 ItemDisplay[aqv CLVL>12]:
