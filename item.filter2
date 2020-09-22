@@ -10,9 +10,9 @@ ItemDisplay[GOLD<7000 CLVL>69]:
 //Health & Mana Potions
 ItemDisplay[rvl]: %PURPLE%R %WHITE%70%
 ItemDisplay[rvs]: %PURPLE%r %WHITE%35%
-ItemDisplay[hp5]:
+ItemDisplay[hp5]: %RED%*%WHITE%Sup Heal%RED%*
 ItemDisplay[mp4]:
-ItemDisplay[mp5]:
+ItemDisplay[mp5]: %BLUE%*%WHITE%Sup Mana%BLUE%*
 ItemDisplay[hp1 CLVL<15]: %RED%!%WHITE%Minor Heal
 ItemDisplay[hp2 CLVL<18]: %RED%!%WHITE%Light Heal
 ItemDisplay[hp3 CLVL<24]: %RED%!%WHITE%Healing
